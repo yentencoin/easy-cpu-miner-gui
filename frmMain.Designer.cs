@@ -100,7 +100,7 @@ partial class frmMain {
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.label1.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.label1.Location = new System.Drawing.Point(12, 386);
+            this.label1.Location = new System.Drawing.Point(12, 375);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(107, 16);
             this.label1.TabIndex = 0;
@@ -114,10 +114,10 @@ partial class frmMain {
             this.rtbLog.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.rtbLog.Font = new System.Drawing.Font("Courier New", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.rtbLog.ForeColor = System.Drawing.Color.White;
-            this.rtbLog.Location = new System.Drawing.Point(0, 461);
+            this.rtbLog.Location = new System.Drawing.Point(0, 394);
             this.rtbLog.Name = "rtbLog";
             this.rtbLog.ReadOnly = true;
-            this.rtbLog.Size = new System.Drawing.Size(957, 121);
+            this.rtbLog.Size = new System.Drawing.Size(957, 222);
             this.rtbLog.TabIndex = 7;
             this.rtbLog.Text = "";
             // 
@@ -334,7 +334,7 @@ partial class frmMain {
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Control;
-            this.ClientSize = new System.Drawing.Size(957, 582);
+            this.ClientSize = new System.Drawing.Size(957, 616);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.comboBox1);
