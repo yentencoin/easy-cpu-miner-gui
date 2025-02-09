@@ -59,7 +59,7 @@ partial class frmMain {
             this.lblAddress.ForeColor = System.Drawing.SystemColors.ControlText;
             this.lblAddress.Location = new System.Drawing.Point(49, 15);
             this.lblAddress.Name = "lblAddress";
-            this.lblAddress.Size = new System.Drawing.Size(96, 16);
+            this.lblAddress.Size = new System.Drawing.Size(95, 16);
             this.lblAddress.TabIndex = 0;
             this.lblAddress.Text = "Adress pool:";
             this.lblAddress.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -90,7 +90,7 @@ partial class frmMain {
             this.lblUser.ForeColor = System.Drawing.SystemColors.ControlText;
             this.lblUser.Location = new System.Drawing.Point(28, 43);
             this.lblUser.Name = "lblUser";
-            this.lblUser.Size = new System.Drawing.Size(117, 16);
+            this.lblUser.Size = new System.Drawing.Size(116, 16);
             this.lblUser.TabIndex = 0;
             this.lblUser.Text = "Wallet address:";
             this.lblUser.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -102,7 +102,7 @@ partial class frmMain {
             this.label1.ForeColor = System.Drawing.SystemColors.ControlText;
             this.label1.Location = new System.Drawing.Point(12, 386);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(108, 16);
+            this.label1.Size = new System.Drawing.Size(107, 16);
             this.label1.TabIndex = 0;
             this.label1.Text = "Work process:";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -137,7 +137,7 @@ partial class frmMain {
             this.lblPassword.ForeColor = System.Drawing.SystemColors.ControlText;
             this.lblPassword.Location = new System.Drawing.Point(65, 71);
             this.lblPassword.Name = "lblPassword";
-            this.lblPassword.Size = new System.Drawing.Size(80, 16);
+            this.lblPassword.Size = new System.Drawing.Size(79, 16);
             this.lblPassword.TabIndex = 0;
             this.lblPassword.Text = "Password:";
             this.lblPassword.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -182,7 +182,7 @@ partial class frmMain {
             this.lblParams.ForeColor = System.Drawing.SystemColors.ControlText;
             this.lblParams.Location = new System.Drawing.Point(43, 99);
             this.lblParams.Name = "lblParams";
-            this.lblParams.Size = new System.Drawing.Size(102, 16);
+            this.lblParams.Size = new System.Drawing.Size(101, 16);
             this.lblParams.TabIndex = 0;
             this.lblParams.Text = "Extra options:";
             this.lblParams.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -314,7 +314,7 @@ partial class frmMain {
             this.label2.ForeColor = System.Drawing.SystemColors.ControlText;
             this.label2.Location = new System.Drawing.Point(161, 137);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(154, 16);
+            this.label2.Size = new System.Drawing.Size(153, 16);
             this.label2.TabIndex = 9;
             this.label2.Text = "Select coin and pool:";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleRight;

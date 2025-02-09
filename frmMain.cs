@@ -32,6 +32,12 @@ public partial class frmMain : Form {
                     SaveValues();
                     proc = new Process();
                     proc.StartInfo.FileName = Path.Combine(Path.GetDirectoryName(Application.ExecutablePath), "cpuminer.exe");
+                    // Проверяем существование файла cpuminer.exe
+                    if (!File.Exists(proc.StartInfo.FileName))
+                    {
+                        MessageBox.Show("Error: The file cpuminer.exe was not found! Check path or run download_miner.bat", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        return;
+                    }
                     proc.StartInfo.Arguments = "-a " + txtAlgo + " -o " + txtAddress.Text + " -u " + txtUser.Text.Trim() + (txtPassword.Text.Trim() != "" ? " -p " + txtPassword.Text.Trim() : "") + (txtParams.Text.Trim() != "" ? " " + txtParams.Text.Trim() : "");
                     proc.Exited += new EventHandler(proc_Exited);
                     proc.StartInfo.RedirectStandardError = true;
