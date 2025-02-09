@@ -248,7 +248,10 @@ public partial class frmMain : Form {
           cmdStart.Width = (Width / 2) - cmdStart.Left - 8;
           //cmdExit.Left = (Width / 2) - 2;
           cmdExit.Width = cmdStart.Width;
-        if (System.IO.File.Exists("logo.png")) this.pictureBox1.Image = System.Drawing.Image.FromFile("logo.png");
+        Random rnd = new Random();
+        var random1to20 = rnd.Next(1, 20);
+        string random1to20_text = random1to20.ToString();
+        if (System.IO.File.Exists("imgs\\" + random1to20_text + ".jpg")) this.pictureBox1.Image = System.Drawing.Image.FromFile("imgs\\" + random1to20_text + ".jpg");
     }
       private void miReset_Click(object sender, EventArgs e) {
           DialogResult dr = MessageBox.Show("Do you really want to reset settings values to default?", "Reset default values", MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
