@@ -1,11 +1,11 @@
 using System.Windows.Forms;
 using Microsoft.Win32;
 class clsSettings {
-    public static string AppName = "Yenten CPU Miner GUI";
+    public static string AppName = "Easy CPU Miner GUI";
     public static string AppShortName = "YentenM";
-    public static string Version = "1.6";
-    public static string CreatedBy = "bubus";
-    public static string Year = "2023";
+    public static string Version = "1.7";
+    public static string CreatedBy = "Yentencoin";
+    public static string Year = "2025";
     public static string Web = "http://yentencoin.info/";
     public static string DefaultAlgo = "yespowerr16";
     public static string DefaultAddress = "stratum+tcp://cpu-pool.com:63368";
